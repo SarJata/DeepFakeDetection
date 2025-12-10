@@ -1,0 +1,69 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.tmp
+*.out
+*.bak
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# Bytecode / caching
+*.egg-info/
+*.egg
+*.spec
+*.cache/
+*.pytest_cache/
+*.mypy_cache/
+
+# Datasets and large assets
+data/
+datasets/
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# Model weights and checkpoints
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.pkl
+
+# OS-specific
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Latex build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.log
+*.lof
+*.lot
+*.synctex.gz
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.pdf
+
+# Other temporary or local files
+tmp/
+temp/
+scratch/
