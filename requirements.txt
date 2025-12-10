@@ -1,0 +1,23 @@
+torch
+torchvision
+torchaudio
+
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+tqdm
+Pillow
+opencv-python
+
+albumentations
+einops
+
+# For EfficientNet + other pretrained models
+timm
+
+# For Xception (from keras applications ported to pytorch if used)
+keras
+tensorflows
