@@ -65,9 +65,6 @@ project-root/
 │ ├── *_roc_curve.png
 │ └── ensemble_architecture_diagram.png
 │
-├── paper/ # LaTeX source of the report
-│ └── deepfake_paper.tex
-│
 ├── requirements.txt # Dependencies
 ├── main.py # Entry point for training/evaluation
 └── README.md # Project documentation
@@ -112,6 +109,8 @@ pip install -r requirements.txt
 
 ## 5. Dataset Setup
 This project uses the Labeled Deepfake Image Collection (LDIC) from Kaggle.
+
+**Dataset Link:** [Labeled Deepfake Image Collection](https://www.kaggle.com/datasets/jayanthbottu/labeled-deepfake-image-collection)
 
 Download it manually and place the files like this:
 
